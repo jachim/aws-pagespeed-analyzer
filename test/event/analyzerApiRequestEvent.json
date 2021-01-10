@@ -1,0 +1,8 @@
+{
+  "resource": "/",
+  "path": "/",
+  "httpMethod": "GET",
+  "queryStringParameters": {
+    "targetPath": "http://developers.google.com/"
+  }
+}

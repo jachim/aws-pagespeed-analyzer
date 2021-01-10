@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-layer": "pushd ../../ && rm -rf layer.zip && popd && npm i && cd ../ && zip -r ../layer.zip *"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-aws-lambda": "^5.3.1",
+    "puppeteer-core": "^5.3.1"
+  }
+}

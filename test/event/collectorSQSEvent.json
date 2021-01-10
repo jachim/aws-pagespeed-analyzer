@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "679a2295-97a4-4f23-b66e-e3d50d37b1dd",
+      "receiptHandle": "AQEBNeJ3DP18ryetKkwL1/gzQvt/rHsjrT/FfL1JplYLel+CWoH+b8R8pngh+0rJGhWOwTihtg6tH/ZcVxrczOE4nC1g0sAvTs065A2G+nXr60EiwHUHMZVXH/MPlIM2WTN51igWcK1vXZFWOpQx1fA3s+svp+wDI2wUbI+Nq1X/rQPD9JFWPS4T0JJP+yVMEFF8yrCwP+8Gpx03/xD2m/Eb0ykTdqCFVGDW1VuXtXajPJLY26+vieQZSxy27jzbW5ikNEmSqaysFBdDUWscwIPBG4qMmxLemAFY9+Ee92Y5FBC8MdxXXvlH0wshptd56YOEvjHt2l5M0OMF0t3QtW32WHJ8gqzyzs4D3527lh0HmlEE2Kp61/DIjsd8MizncpjZOH39WFtsG5EqxxtR0DfBqA==",
+      "body": "{\"message\":\"pageSpeedRaport\",\"report\":{\"mobile\":{\"overallScore\":1,\"firstContentfulPaint\":1,\"speedIndex\":1,\"largestContentfulPaint\":1,\"timeToInteractive\":1,\"cumulativeLayoutShift\":1},\"desktop\":{\"overallScore\":2,\"firstContentfulPaint\":2,\"speedIndex\":2,\"largestContentfulPaint\":2,\"timeToInteractive\":2,\"cumulativeLayoutShift\":2}}}",
+      "attributes": {
+        "ApproximateReceiveCount": "15",
+        "SentTimestamp": "1610040198456",
+        "SenderId": "AIDAZKJIREK647AAFVRD5",
+        "ApproximateFirstReceiveTimestamp": "1610040198456"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "63f19dc269a1569fe5a64bd9fbcf64d9",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:640572007101:PagespeedInsightCheckerQueue",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

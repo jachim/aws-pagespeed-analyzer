@@ -1,0 +1,24 @@
+Serverless app for page speed analyze. It checks page speed in Google PageSpeedInsight tool and save reports to Amazon DynamoDB.
+
+## 🚀 Quick start
+
+Create .env file based on .env.dist file and provide your Google PageInsight api key.
+
+1. Install dependencies and compile typescript:
+
+```shell
+npm i
+tsc
+```
+
+2. Deploy the stack to AWS:
+```shell
+serverless deploy
+```
+
+3. Test locally:
+
+```shell
+sls invoke local --function pageAnalyzer --path test/event/analyzerApiRequestEvent.json
+sls invoke local --function reportCollector --path test/event/collectorSQSEvent.json
+```
